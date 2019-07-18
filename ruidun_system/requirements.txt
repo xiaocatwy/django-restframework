@@ -1,0 +1,49 @@
+asn1crypto==0.24.0
+certifi==2018.8.24
+cffi==1.11.5
+chardet==3.0.4
+cryptography==2.3.1
+cycler==0.10.0
+defusedxml==0.5.0
+Django==2.1
+# django-adminlte==1.2
+# django-adminlte2==0.4.1
+# django-allauth==0.37.1
+# django-appconf==1.0.2
+# django-compressor==2.2
+# django-compressor-toolkit==0.6.0
+# django-crudbuilder==0.2.7
+# django-debug-toolbar==1.9.1
+django-extensions==2.1.2
+django-filter==2.0.0
+# django-tables2==1.21.2
+# django-widget-tweaks==1.4.2
+idna==2.7
+kiwisolver==1.0.1
+matplotlib==3.0.0rc2
+numpy==1.15.1
+oauthlib==2.1.0
+Pillow==5.2.0
+pycparser==2.18
+PyMySQL==0.9.2
+mysqlclient
+pyparsing==2.2.0
+python-dateutil==2.7.3
+python3-openid==3.1.0
+pytz==2018.5
+rcssmin==1.0.6
+requests==2.19.1
+requests-oauthlib==1.0.0
+rjsmin==1.0.12
+six==1.11.0
+split==0.4
+sqlparse==0.2.4
+suds-jurko==0.6
+urllib3==1.23
+djangorestframework
+# django-rest-auth
+djangorestframework-jwt
+django-cors-headers
+djangorestframework-jsonapi
+django-autofixture
+drf-tracking

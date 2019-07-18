@@ -1,0 +1,77 @@
+[
+  {
+    "model": "system_manage.artificiallogcategory",
+    "pk": 1,
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u4e00\u822c\u65e5\u5fd7"
+    }
+  },
+  {
+    "model": "system_manage.artificiallogcategory",
+    "pk": 2,
+    "fields": {
+      "index": 3,
+      "is_used": 1,
+      "name": "\u91cd\u8981\u65e5\u5fd7"
+    }
+  },
+  {
+    "model": "system_manage.artificiallogcategory",
+    "pk": 3,
+    "fields": {
+      "index": 2,
+      "is_used": 1,
+      "name": "\u6781\u91cd\u8981\u65e5\u5fd7"
+    }
+  },
+  {
+    "model": "system_manage.artificiallog",
+    "pk": "1",
+    "fields": {
+      "name": "\u65e5\u5fd71",
+      "user": 10,
+      "category": 1,
+      "time": "2019-03-15T14:09:30.151Z",
+      "status": true,
+      "level": 5
+    }
+  },
+  {
+    "model": "system_manage.artificiallog",
+    "pk": "2",
+    "fields": {
+      "name": "\u65e5\u5fd72",
+      "user": 10,
+      "category": 2,
+      "time": "2019-03-15T14:09:32.256Z",
+      "status": true,
+      "level": 6
+    }
+  },
+  {
+    "model": "system_manage.artificiallog",
+    "pk": "3",
+    "fields": {
+      "name": "\u65e5\u5fd73",
+      "user": 11,
+      "category": 1,
+      "time": "2019-03-19T14:09:33.320Z",
+      "status": true,
+      "level": 1
+    }
+  },
+  {
+    "model": "system_manage.artificiallog",
+    "pk": "4",
+    "fields": {
+      "name": "\u65e5\u5fd74",
+      "user": 12,
+      "category": 1,
+      "time": "2019-03-24T14:09:34.488Z",
+      "status": true,
+      "level": 5
+    }
+  }
+]

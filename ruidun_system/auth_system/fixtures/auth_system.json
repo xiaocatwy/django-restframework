@@ -1,0 +1,193 @@
+[
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 1,
+    "fields": {
+      "name": "\u4eba\u5458\u7ba1\u7406",
+      "icon": "coffee",
+      "order_by": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 2,
+    "fields": {
+      "name": "\u8bbe\u5907\u7ba1\u7406",
+      "icon": "coffee",
+      "order_by": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 1,
+    "fields": {
+      "name": "\u4eba\u5458\u7ba1\u7406",
+      "icon": "coffee",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 11,
+      "content_type_cat": 1,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 2,
+    "fields": {
+      "name": "\u5de5\u4f5c\u5c97\u4f4d",
+      "icon": "coffee",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 8,
+      "content_type_cat": 1,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u5355\u4f4d1"
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "2",
+    "fields": {
+      "index": 2,
+      "is_used": 1,
+      "name": "\u5355\u4f4d2"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u9879\u76ee1",
+      "company": "1"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "2",
+    "fields": {
+      "index": 2,
+      "is_used": 1,
+      "name": "\u9879\u76ee2",
+      "company": "2"
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u5de5\u533a1",
+      "project": "1"
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "2",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u5de5\u533a2",
+      "project": "2"
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$s5REOBax3B0G$YT1d7Y1SfZjUaj0++QQn62yA82WqgyBFM0L9LPKPYkY=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@a.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-02-22T11:57:28.673Z",
+      "default_part": null,
+      "groups": [],
+      "user_permissions": [],
+      "parts": []
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$s5REOBax3B0G$YT1d7Y1SfZjUaj0++QQn62yA82WqgyBFM0L9LPKPYkY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user_1",
+      "first_name": "admin",
+      "last_name": "\u7ba1\u7406\u5458",
+      "email": "admin@a.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-27T10:55:18.875Z",
+      "default_part": null,
+      "groups": [
+        1
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$s5REOBax3B0G$YT1d7Y1SfZjUaj0++QQn62yA82WqgyBFM0L9LPKPYkY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user_2",
+      "first_name": "\u666e\u901a\u7528\u6237",
+      "last_name": "",
+      "email": "user_2@a.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-27T10:55:18.897Z",
+      "default_part": null,
+      "groups": [
+        2
+      ],
+      "user_permissions": [],
+      "parts": []
+    }
+  },
+  {
+    "model": "auth.Group",
+    "pk": 1,
+    "fields": {
+      "name": "admin_group",
+      "permissions": [41, 42, 43, 44]
+    }
+  },
+  {
+    "model": "auth.Group",
+    "pk": 2,
+    "fields": {
+      "name": "user_group",
+      "permissions": [41, 42]
+    }
+  }
+]

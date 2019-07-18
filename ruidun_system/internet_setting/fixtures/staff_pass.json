@@ -1,0 +1,32 @@
+[
+  {
+    "model": "internet_setting.staffpass",
+    "pk": "1",
+    "fields": {
+      "code": "1",
+      "staff": "1",
+      "status": 1,
+      "time": "2019-03-12T13:52:08.604Z"
+    }
+  },
+  {
+    "model": "internet_setting.staffpass",
+    "pk": "2",
+    "fields": {
+      "code": "2",
+      "staff": "2",
+      "status": 1,
+      "time": "2019-03-12T13:52:10.245Z"
+    }
+  },
+  {
+    "model": "internet_setting.staffpass",
+    "pk": "3",
+    "fields": {
+      "code": "3",
+      "staff": "3",
+      "status": 0,
+      "time": "2019-03-10T13:52:12.275Z"
+    }
+  }
+]

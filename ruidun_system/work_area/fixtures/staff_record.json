@@ -1,0 +1,54 @@
+[
+  {
+    "model": "work_area.staffbreak",
+    "pk": "1",
+    "fields": {
+      "create_time": "2019-03-12T00:00:00Z",
+      "update_time": "2019-03-13T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "name": "\u4eba\u5458\u897f\u4e00\u9053\u95f8"
+    }
+  },
+  {
+    "model": "work_area.staffbreak",
+    "pk": "2",
+    "fields": {
+      "create_time": "2019-03-11T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "index": 2,
+      "is_used": 1,
+      "name": "\u4eba\u5458\u4e1c\u4e00\u9053\u95f8"
+    }
+  },
+  {
+    "model": "work_area.staffrecord",
+    "pk": "1",
+    "fields": {
+      "staff": "1",
+      "staff_break": "1",
+      "in_out": true,
+      "time": "2019-03-13T00:00:00Z"
+    }
+  },
+  {
+    "model": "work_area.staffrecord",
+    "pk": "2",
+    "fields": {
+      "staff": "2",
+      "staff_break": "2",
+      "in_out": true,
+      "time": "2019-03-12T00:00:00Z"
+    }
+  },
+  {
+    "model": "work_area.staffrecord",
+    "pk": "3",
+    "fields": {
+      "staff": "1",
+      "staff_break": "2",
+      "in_out": false,
+      "time": "2019-03-13T10:00:00Z"
+    }
+  }
+]

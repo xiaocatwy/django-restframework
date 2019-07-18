@@ -1,0 +1,84 @@
+[
+  {
+    "model": "safe.dangerouscategory",
+    "pk": "1",
+    "fields": {
+      "create_time": "2019-03-12T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "name": "\u6d88\u8017\u54c1"
+    }
+  },
+  {
+    "model": "safe.dangerouscategory",
+    "pk": "2",
+    "fields": {
+      "create_time": "2019-03-12T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "index": 2,
+      "is_used": 1,
+      "name": "\u7206\u7834\u54c1"
+    }
+  },
+  {
+    "model": "safe.danger",
+    "pk": "1",
+    "fields": {
+      "create_time": "2019-03-12T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "category": "1",
+      "part": "1",
+      "name": "\u786b\u9178",
+      "count": 20
+    }
+  },
+  {
+    "model": "safe.danger",
+    "pk": "2",
+    "fields": {
+      "create_time": "2019-03-12T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "index": 2,
+      "is_used": 1,
+      "category": "2",
+      "part": "2",
+      "name": "\u70b8\u836f",
+      "count": 50
+    }
+  },
+  {
+    "model": "safe.dangerused",
+    "pk": "1",
+    "fields": {
+      "create_time": "2019-03-02T00:00:00Z",
+      "update_time": "2019-03-12T00:00:00Z",
+      "danger": "1",
+      "count": 10,
+      "manager": "1",
+      "user": "2",
+      "is_need_back": true,
+      "is_back": true,
+      "start_time": "2019-03-02T00:00:00Z",
+      "end_time": "2019-03-12T00:00:00Z"
+    }
+  },
+  {
+    "model": "safe.dangerused",
+    "pk": "2",
+    "fields": {
+      "create_time": "2019-03-05T00:00:00Z",
+      "update_time": "2019-03-11T00:00:00Z",
+      "danger": "2",
+      "count": 15,
+      "manager": "2",
+      "user": "1",
+      "is_need_back": true,
+      "is_back": true,
+      "start_time": "2019-03-05T00:00:00Z",
+      "end_time": "2019-03-11T00:00:00Z"
+    }
+  }
+]

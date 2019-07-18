@@ -1,0 +1,109 @@
+[
+  {
+    "model": "work_area.carinfo",
+    "pk": "\u4eacAD8888",
+    "fields": {
+      "car_owner": "\u674e\u98de\u817e",
+      "phone_number": "18536754205"
+    }
+  },
+  {
+    "model": "work_area.carinfo",
+    "pk": "\u8c6bAMZ000",
+    "fields": {
+      "car_owner": "\u9ad8\u98de",
+      "phone_number": "18626354876"
+    }
+  },
+  {
+    "model": "work_area.carinfo",
+    "pk": "\u8c6bAZ6666",
+    "fields": {
+      "car_owner": "\u5f20\u4e09",
+      "phone_number": "18626354888"
+    }
+  },
+  {
+    "model": "work_area.carbreak",
+    "pk": "1",
+    "fields": {
+      "create_time": "2019-03-10T00:00:00Z",
+      "update_time": "2019-03-13T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "name": "\u897f\u4e00\u9053\u95f8"
+    }
+  },
+  {
+    "model": "work_area.carbreak",
+    "pk": "2",
+    "fields": {
+      "create_time": "2019-03-10T00:00:00Z",
+      "update_time": "2019-03-13T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "name": "\u4e1c\u4e00\u9053\u95f8"
+    }
+  },
+  {
+    "model": "work_area.carbreak",
+    "pk": "3",
+    "fields": {
+      "create_time": "2019-03-10T00:00:00Z",
+      "update_time": "2019-03-13T00:00:00Z",
+      "index": 1,
+      "is_used": 1,
+      "name": "\u5357\u4e00\u9053\u95f8"
+    }
+  },
+  {
+    "model": "work_area.carrecord",
+    "pk": "1",
+    "fields": {
+      "car": "\u4eacAD8888",
+      "car_break": "1",
+      "in_out": true,
+      "time": "2019-03-11T00:00:00Z"
+    }
+  },
+  {
+    "model": "work_area.carrecord",
+    "pk": "2",
+    "fields": {
+      "car": "\u4eacAD8888",
+      "car_break": "2",
+      "in_out": false,
+      "time": "2019-03-12T12:00:00Z"
+    }
+  },
+  {
+    "model": "work_area.carrecord",
+    "pk": "3",
+    "fields": {
+      "car": "\u8c6bAMZ000",
+      "car_break": "3",
+      "in_out": true,
+      "time": "2019-03-12T00:00:00Z"
+    }
+  },
+  {
+    "model": "work_area.carrecord",
+    "pk": "4",
+    "fields": {
+      "car": "\u8c6bAMZ000",
+      "car_break": "1",
+      "in_out": false,
+      "time": "2019-03-12T14:22:00Z"
+    }
+  },
+  {
+    "model": "work_area.carrecord",
+    "pk": "5",
+    "fields": {
+      "car": "\u8c6bAZ6666",
+      "car_break": "2",
+      "in_out": true,
+      "time": "2019-03-13T00:00:00Z"
+    }
+  }
+]

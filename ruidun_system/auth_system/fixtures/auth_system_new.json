@@ -1,0 +1,1401 @@
+[
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 1,
+    "fields": {
+      "name": "\u4eba\u5458\u7ba1\u7406",
+      "icon": "fa fa-user-circle",
+      "order_by": 1,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 2,
+    "fields": {
+      "name": "\u8bbe\u5907\u7ba1\u7406",
+      "icon": "fa fa-truck",
+      "order_by": 2,
+      "is_active": true,
+      "has_sub": false,
+      "path": "equipmentinfos"
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 3,
+    "fields": {
+      "name": "\u5de5\u533a\u7ba1\u7406",
+      "icon": "fa fa-cubes ",
+      "order_by": 3,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 4,
+    "fields": {
+      "name": "\u6865\u96a7\u7ba1\u7406",
+      "icon": "fa fa-th-large ",
+      "order_by": 4,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 5,
+    "fields": {
+      "name": "\u5b89\u5168\u7ba1\u7406",
+      "icon": "fa fa-shield ",
+      "order_by": 5,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 6,
+    "fields": {
+      "name": "\u7269\u8054\u7f51\u786c\u4ef6\u7cfb\u7edf",
+      "icon": "fa fa-rss-square",
+      "order_by": 6,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 7,
+    "fields": {
+      "name": "\u8bbe\u7f6e",
+      "icon": "fa fa-cog ",
+      "order_by": 7,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 8,
+    "fields": {
+      "name": "BIM\u63a5\u53e3",
+      "icon": "fa fa-tag ",
+      "order_by": 8,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 9,
+    "fields": {
+      "name": "\u67e5\u8be2\u4e2d\u5fc3",
+      "icon": "fa fa-search",
+      "order_by": 9,
+      "is_active": true,
+      "has_sub": false,
+      "path": "searchcenters"
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 10,
+    "fields": {
+      "name": "\u5e2e\u52a9",
+      "icon": "fa fa-question-circle",
+      "order_by": 10,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecat",
+    "pk": 11,
+    "fields": {
+      "name": "\u7cfb\u7edf\u7ba1\u7406",
+      "icon": "fa fa-television",
+      "order_by": 11,
+      "is_active": true,
+      "has_sub": true,
+      "path": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 1,
+    "fields": {
+      "name": "\u4eba\u5458\u7ba1\u7406",
+      "icon": "fa fa-address-book-o",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 17,
+      "content_type_cat": 1,
+      "front_path": "staffs",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 3,
+    "fields": {
+      "name": "\u8003\u52e4\u8bb0\u5f55",
+      "icon": "fa fa-bar-chart ",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 45,
+      "content_type_cat": 1,
+      "front_path": "userworks",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 4,
+    "fields": {
+      "name": "\u8bbe\u5907\u4fe1\u606f",
+      "icon": "coffee",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 19,
+      "content_type_cat": 2,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 5,
+    "fields": {
+      "name": "\u8bbe\u5907\u4f7f\u7528\u8bb0\u5f55",
+      "icon": "coffee",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 21,
+      "content_type_cat": 2,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 6,
+    "fields": {
+      "name": "\u8bbe\u5907\u4fdd\u517b\u8bb0\u5f55",
+      "icon": "coffee",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 22,
+      "content_type_cat": 2,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 7,
+    "fields": {
+      "name": "\u8bbe\u5907\u7ef4\u4fee\u8bb0\u5f55",
+      "icon": "coffee",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 23,
+      "content_type_cat": 2,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 8,
+    "fields": {
+      "name": "\u8bbe\u5907\u5b9a\u4f4d\u8bb0\u5f55",
+      "icon": "coffee",
+      "order_by": 5,
+      "is_active": true,
+      "content_type": 46,
+      "content_type_cat": 2,
+      "front_path": null,
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 9,
+    "fields": {
+      "name": "\u5de5\u533a\u901a\u9053\u72b6\u6001",
+      "icon": "fa fa-dot-circle-o",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 41,
+      "content_type_cat": 3,
+      "front_path": "carrecords",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 10,
+    "fields": {
+      "name": "\u5de5\u533a\u4eba\u5458\u72b6\u6001",
+      "icon": "fa fa-user-circle",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 17,
+      "content_type_cat": 3,
+      "front_path": "teams",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 11,
+    "fields": {
+      "name": "\u5de5\u533a\u8bbe\u5907\u72b6\u6001",
+      "icon": "fa fa-gavel",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 19,
+      "content_type_cat": 3,
+      "front_path": "channelstate",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 12,
+    "fields": {
+      "name": "\u5de5\u533a\u6570\u636e\u7edf\u8ba1",
+      "icon": "fa fa-bars ",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 11,
+      "content_type_cat": 3,
+      "front_path": "datastatistics",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 13,
+    "fields": {
+      "name": "\u6865\u96a7\u5de5\u533a\u901a\u9053\u72b6\u6001",
+      "icon": "fa fa fa-dot-circle-o",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 41,
+      "content_type_cat": 4,
+      "front_path": "carrecords",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 14,
+    "fields": {
+      "name": "\u6865\u96a7\u5de5\u533a\u4eba\u5458\u72b6\u6001",
+      "icon": "fa fa-user-circle",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 11,
+      "content_type_cat": 4,
+      "front_path": "teams",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 15,
+    "fields": {
+      "name": "\u6865\u96a7\u5de5\u533a\u8bbe\u5907\u72b6\u6001",
+      "icon": "fa fa-gavel",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 19,
+      "content_type_cat": 4,
+      "front_path": "channelstate",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 16,
+    "fields": {
+      "name": "\u6865\u96a7\u5de5\u533a\u6570\u636e\u7edf\u8ba1",
+      "icon": "fa fa-bars ",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 11,
+      "content_type_cat": 4,
+      "front_path": "datastatistics",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 17,
+    "fields": {
+      "name": "\u5371\u9669\u7269\u54c1\u7ba1\u7406",
+      "icon": "fa fa-hand-paper-o ",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 35,
+      "content_type_cat": 5,
+      "front_path": "dangeruseds",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 18,
+    "fields": {
+      "name": "\u70b8\u836f\u5e93\u76d1\u63a7",
+      "icon": "fa fa-industry",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 49,
+      "content_type_cat": 5,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 19,
+    "fields": {
+      "name": "\u5b89\u5168\u57fa\u7840\u8d44\u6599",
+      "icon": "fa fa-file-archive-o",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 50,
+      "content_type_cat": 5,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 20,
+    "fields": {
+      "name": "\u7b7e\u7ae0\u7ba1\u7406",
+      "icon": "fa fa-info",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 51,
+      "content_type_cat": 5,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 21,
+    "fields": {
+      "name": "\u5b89\u5168\u57f9\u8bad",
+      "icon": "fa fa-university",
+      "order_by": 5,
+      "is_active": true,
+      "content_type": 52,
+      "content_type_cat": 5,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 22,
+    "fields": {
+      "name": "\u5e94\u6025\u65b9\u6848\u7ba1\u7406",
+      "icon": "fa fa-reply-all ",
+      "order_by": 6,
+      "is_active": true,
+      "content_type": 36,
+      "content_type_cat": 5,
+      "front_path": "priorschemes",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 23,
+    "fields": {
+      "name": "\u4e13\u9879\u65bd\u5de5\u65b9\u6848\u7ba1\u7406",
+      "icon": "fa fa-reply",
+      "order_by": 7,
+      "is_active": true,
+      "content_type": 38,
+      "content_type_cat": 5,
+      "front_path": "specialschemes",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 24,
+    "fields": {
+      "name": "\u5e94\u6025\u6f14\u7ec3\u7ba1\u7406",
+      "icon": "fa fa-heart",
+      "order_by": 8,
+      "is_active": true,
+      "content_type": 53,
+      "content_type_cat": 5,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 25,
+    "fields": {
+      "name": "\u5b9a\u4f4d\u7cfb\u7edf\u7ba1\u7406",
+      "icon": "fa fa-map-marker ",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 17,
+      "content_type_cat": 6,
+      "front_path": "location_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 26,
+    "fields": {
+      "name": "\u76d1\u63a7\u7ba1\u7406",
+      "icon": "fa fa-camera-retro",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 54,
+      "content_type_cat": 6,
+      "front_path": "monitor_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 27,
+    "fields": {
+      "name": "\u95e8\u7981\u7ba1\u7406 ",
+      "icon": "fa fa-times-circle",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 41,
+      "content_type_cat": 6,
+      "front_path": "carrecords",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 28,
+    "fields": {
+      "name": "\u5e94\u6025\u5e7f\u64ad\u7ba1\u7406",
+      "icon": "fa fa-star-half-o ",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 55,
+      "content_type_cat": 6,
+      "front_path": "vioce_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 29,
+    "fields": {
+      "name": "\u8fdc\u7a0b\u7535\u6e90\u7ba1\u7406",
+      "icon": "fa fa-power-off",
+      "order_by": 5,
+      "is_active": true,
+      "content_type": 56,
+      "content_type_cat": 6,
+      "front_path": "ipswitch_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 30,
+    "fields": {
+      "name": "LED\u5c4f\u7ba1\u7406",
+      "icon": "fa fa-desktop ",
+      "order_by": 6,
+      "is_active": true,
+      "content_type": 29,
+      "content_type_cat": 6,
+      "front_path": "led_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 31,
+    "fields": {
+      "name": "\u8b66\u793a\u7ba1\u7406",
+      "icon": "fa fa-exclamation-triangle",
+      "order_by": 7,
+      "is_active": true,
+      "content_type": 57,
+      "content_type_cat": 6,
+      "front_path": "cautious_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 32,
+    "fields": {
+      "name": "\u4e2d\u592e\u63a7\u5236\u5ba4LED",
+      "icon": "fa fa-eye ",
+      "order_by": 8,
+      "is_active": true,
+      "content_type": 58,
+      "content_type_cat": 6,
+      "front_path": "center_manage",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 33,
+    "fields": {
+      "name": "\u5b9a\u4f4d\u7cfb\u7edf\u8bbe\u7f6e",
+      "icon": "fa fa-street-view ",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 31,
+      "content_type_cat": 7,
+      "front_path": "location_card",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 34,
+    "fields": {
+      "name": "\u76d1\u63a7\u8bbe\u7f6e",
+      "icon": "fa fa-camera-retro ",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 30,
+      "content_type_cat": 7,
+      "front_path": "monitor",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 35,
+    "fields": {
+      "name": "\u95e8\u7981\u8bbe\u7f6e",
+      "icon": "fa fa-times-circle",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 26,
+      "content_type_cat": 7,
+      "front_path": "car_pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 36,
+    "fields": {
+      "name": "\u5e94\u6025\u5e7f\u64ad\u8bbe\u7f6e",
+      "icon": "fa fa-star-half-o ",
+      "order_by": 4,
+      "is_active": true,
+      "content_type": 55,
+      "content_type_cat": 7,
+      "front_path": "voice",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 37,
+    "fields": {
+      "name": "\u8fdc\u7a0b\u7535\u6e90\u8bbe\u7f6e",
+      "icon": "fa fa-toggle-on",
+      "order_by": 5,
+      "is_active": true,
+      "content_type": 56,
+      "content_type_cat": 7,
+      "front_path": "ipswitch",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 38,
+    "fields": {
+      "name": "LED\u5c4f\u8bbe\u7f6e ",
+      "icon": "fa fa-desktop",
+      "order_by": 6,
+      "is_active": true,
+      "content_type": 70,
+      "content_type_cat": 7,
+      "front_path": "led",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 39,
+    "fields": {
+      "name": "\u8b66\u793a\u8bbe\u7f6e",
+      "icon": "fa fa-exclamation-triangle",
+      "order_by": 7,
+      "is_active": true,
+      "content_type": 57,
+      "content_type_cat": 7,
+      "front_path": "cautious",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 40,
+    "fields": {
+      "name": "\u5e2e\u52a9\u4e2d\u5fc3",
+      "icon": "fa fa-question-circle",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 59,
+      "content_type_cat": 10,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 41,
+    "fields": {
+      "name": "\u62a5\u544a\u95ee\u9898",
+      "icon": "fa fa-exclamation",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 37,
+      "content_type_cat": 10,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 42,
+    "fields": {
+      "name": "\u7248\u6743\u4fe1\u606f",
+      "icon": "fa fa-copyright ",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 60,
+      "content_type_cat": 10,
+      "front_path": "pass",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 43,
+    "fields": {
+      "name": "\u7528\u6237\u8d44\u6599\u7ba1\u7406",
+      "icon": "fa fa-table",
+      "order_by": 1,
+      "is_active": true,
+      "content_type": 7,
+      "content_type_cat": 11,
+      "front_path": "user",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 44,
+    "fields": {
+      "name": "\u64cd\u4f5c\u65e5\u5fd7",
+      "icon": "fa fa-window-maximize",
+      "order_by": 2,
+      "is_active": true,
+      "content_type": 62,
+      "content_type_cat": 11,
+      "front_path": "log",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 45,
+    "fields": {
+      "name": "\u6743\u9650\u7ba1\u7406",
+      "icon": "fa fa-code",
+      "order_by": 3,
+      "is_active": true,
+      "content_type": 3,
+      "content_type_cat": 11,
+      "front_path": "permission",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 46,
+    "fields": {
+      "name": "\u5de5\u533a\u8bbe\u5907\u603b\u89c8",
+      "icon": "fa fa-globe",
+      "order_by": 8,
+      "is_active": true,
+      "content_type": 82,
+      "content_type_cat": 3,
+      "front_path": "all_equipment",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 47,
+    "fields": {
+      "name": "\u9879\u76ee\u8bbe\u7f6e",
+      "icon": "fa fa-window-restore",
+      "order_by": 9,
+      "is_active": true,
+      "content_type": 12,
+      "content_type_cat": 7,
+      "front_path": "part",
+      "front_redirect": null,
+      "front_component": null
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 48,
+    "fields": {
+      "name": "\u6865\u96a7\u8bbe\u5907\u603b\u89c8",
+      "icon": "fa fa-globe",
+      "order_by": 8,
+      "is_active": true,
+      "content_type": 82,
+      "content_type_cat": 4,
+      "front_path": "all_equipment",
+      "front_redirect": "",
+      "front_component": ""
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 49,
+    "fields": {
+      "name": "\u9879\u76ee\u8bbe\u7f6e",
+      "icon": "fa fa-window-restore",
+      "order_by": 9,
+      "is_active": true,
+      "content_type": 11,
+      "content_type_cat": 7,
+      "front_path": "part",
+      "front_redirect": "",
+      "front_component": ""
+    }
+  },
+  {
+    "model": "auth_system.contenttypecatrel",
+    "pk": 50,
+    "fields": {
+      "name": "\u9879\u76ee\u8bbe\u7f6e",
+      "icon": "fa fa-window-restore",
+      "order_by": 9,
+      "is_active": true,
+      "content_type": 14,
+      "content_type_cat": 7,
+      "front_path": "part",
+      "front_redirect": "",
+      "front_component": ""
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "09be7496-457e-497b-8df2-6d2aa543dd46",
+    "fields": {
+      "index": 0,
+      "is_used": 0,
+      "name": "\u4e09\u878d\u79d1",
+      "boss_name": "\u4e2d\u975e",
+      "phone_num": "123454",
+      "company_address": "\u6e56\u5fc3\u5c9b"
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 0,
+      "name": "\u516c\u53f81",
+      "boss_name": "\u8001\u677f",
+      "phone_num": "13676666",
+      "company_address": "\u516c\u53f8\u5730\u5740"
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "1234733c-6b83-4104-a1c6-d3aea7171a63",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u963f\u91cc",
+      "boss_name": "\u9a6c\u4e91",
+      "phone_num": "183360333333",
+      "company_address": "\u676d\u5dde"
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "4c86d709-b40c-4bc0-8f80-d4635d0a78f4",
+    "fields": {
+      "index": 0,
+      "is_used": 0,
+      "name": "\u516c\u53f81024",
+      "boss_name": "HH",
+      "phone_num": "1234532000",
+      "company_address": "\u9f99\u5b50\u6e56\u554a"
+    }
+  },
+  {
+    "model": "auth_system.company",
+    "pk": "c3d03bee-9e28-4713-b857-2cf418dd572e",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u516c\u53f82",
+      "boss_name": "\u8d75\u98de",
+      "phone_num": "130000000",
+      "company_address": "\u9f99\u5b50\u6e56"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "026e1c07-7d60-46b1-be72-0b3c7e8d1892",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u9879\u76ee1",
+      "company": "1234733c-6b83-4104-a1c6-d3aea7171a63",
+      "manager": "\u652f\u4ed8\u5b9d\u2014\u20141",
+      "manager_phone": "13555536963"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 0,
+      "name": "\u9879\u76ee2",
+      "company": "1",
+      "manager": "\u5f20\u4e09",
+      "manager_phone": "1367688777"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "481f4a2e-66f3-4339-9165-f5da13d1f722",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u9879\u76ee3",
+      "company": "c3d03bee-9e28-4713-b857-2cf418dd572e",
+      "manager": "\u554a\u662f\u5927",
+      "manager_phone": "1222222"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "60cf0678-9ff0-46e9-a3d5-983f0ebab0e7",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u9879\u76ee4",
+      "company": "4c86d709-b40c-4bc0-8f80-d4635d0a78f4",
+      "manager": "\u8d75\u98de",
+      "manager_phone": "13478945612"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "8d1c537d-926d-402e-af26-2f59658049fe",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u9879\u76ee5",
+      "company": "c3d03bee-9e28-4713-b857-2cf418dd572e",
+      "manager": "\u66f9\u534e\u632f",
+      "manager_phone": "12345678900"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "c25d3951-d233-409f-9c3c-e03506ce0a74",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u9879\u76ee6",
+      "company": "1",
+      "manager": "\u59da\u6bc5",
+      "manager_phone": "1346797946"
+    }
+  },
+  {
+    "model": "auth_system.project",
+    "pk": "eba37098-46e7-41ac-a67a-f67b8a873a7e",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "name": "\u777f\u76fe",
+      "company": "09be7496-457e-497b-8df2-6d2aa543dd46",
+      "manager": "\u8d75\u98de",
+      "manager_phone": "123465798"
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "051ab9ef-7a5c-4648-8d6c-64387e6d540f",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "sysid": null,
+      "name": "\u9ed8\u8ba4\u5de5\u533a1",
+      "project": "8d1c537d-926d-402e-af26-2f59658049fe",
+      "manager": "\u963f\u8428\u5fb7",
+      "manager_phone": "12345678901",
+      "map_path": "maps/5_5ca2efb1974080_7SDYOln.jpg",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "sysid": "",
+      "name": "\u5de5\u533a1",
+      "project": "1",
+      "manager": "\u5de5\u533a\u7ecf\u7406",
+      "manager_phone": "13676997634",
+      "map_path": "maps/part_map.png",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "3432c8fc-ad0c-41c7-b3a9-2010469325b2",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "sysid": null,
+      "name": "\u9ed8\u8ba4\u5de5\u533a1",
+      "project": "026e1c07-7d60-46b1-be72-0b3c7e8d1892",
+      "manager": "\u54c8\u54c8",
+      "manager_phone": "123456789",
+      "map_path": "maps/\u5fae\u4fe1\u56fe\u7247_20190428103105.png",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_system.part",
+    "pk": "ac4ddb83-e334-488b-a0fd-996ddda3f974",
+    "fields": {
+      "index": 0,
+      "is_used": 1,
+      "sysid": null,
+      "name": "\u9ed8\u8ba4\u5de5\u533a2",
+      "project": "026e1c07-7d60-46b1-be72-0b3c7e8d1892",
+      "manager": "\u8d75\u98de",
+      "manager_phone": "74185223587",
+      "map_path": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 1,
+    "fields": {
+      "group": 1,
+      "note": "",
+      "is_used": 1,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 2,
+    "fields": {
+      "group": 2,
+      "note": null,
+      "is_used": 1,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 3,
+    "fields": {
+      "group": 5,
+      "note": "\u6d4b\u8bd5",
+      "is_used": 0,
+      "index": 3
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 4,
+    "fields": {
+      "group": 6,
+      "note": "",
+      "is_used": 1,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 5,
+    "fields": {
+      "group": 11,
+      "note": "",
+      "is_used": 1,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 6,
+    "fields": {
+      "group": 12,
+      "note": "",
+      "is_used": 1,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 7,
+    "fields": {
+      "group": 13,
+      "note": "",
+      "is_used": 0,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.extragroup",
+    "pk": 8,
+    "fields": {
+      "group": 14,
+      "note": "",
+      "is_used": 0,
+      "index": 1
+    }
+  },
+  {
+    "model": "auth_system.user_department",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u9ed8\u8ba4\u90e8\u95e8"
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$YnfRsRvsPSnr$NxuTCa7b+DQcDpjkVrkUc/mugCUCVymEE0HYpl8i+TQ=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@a.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-02-22T11:57:28.673",
+      "default_part": "1",
+      "default_group": 1,
+      "staff": "123456",
+      "groups": [
+        1,
+        2
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$FHHdKOfyZHPS$9GJ227sLLo1acE7zSTDoTm/OW0wLCA6TPbX7xFS2/lA=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "user_1",
+      "first_name": "admin",
+      "last_name": "\u7ba1\u7406\u5458",
+      "email": "admin@a.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-27T10:55:18.875",
+      "default_part": "1",
+      "default_group": 1,
+      "staff": "160001",
+      "groups": [
+        1,
+        11
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$J1JYhZfv1rBq$cRQx0LVqV+bqCzdabnSXbu7OZg6ZqLgcqGTMD8Zvbkk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user_2",
+      "first_name": "\u666e\u901a\u7528\u6237",
+      "last_name": "",
+      "email": "user_2@a.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-27T10:55:18.897",
+      "default_part": null,
+      "default_group": null,
+      "staff": "160002",
+      "groups": [
+        11
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$4bNsGs5FVTh0$TIDHirZ5J8xyK2iKqy/BFlvLNx0p21CiYyGqkB3MT28=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user_22",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2019-03-22T02:36:02.266",
+      "default_part": null,
+      "default_group": null,
+      "staff": null,
+      "groups": [
+        11
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$s9MONeGh2CgC$KQhQMtG+6+yccotktSgKMdkORo1xWOLA1zc+lLg9NRE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-16T03:23:52.278",
+      "default_part": null,
+      "default_group": null,
+      "staff": null,
+      "groups": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$qc8yPogJ0Z9F$y21nZZTeUoC+UUL4mQX7B3VoyQejRef/Vxo26kq2cp4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user123",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-29T10:58:06.650",
+      "default_part": "1",
+      "default_group": null,
+      "staff": null,
+      "groups": [
+        6
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 22,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$bjI0ojQskaHX$hTKQzHoVKGgl/efDGt7ZJREzH5CQAp11jJx/Qz46G7k=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sunqiang",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-30T18:12:45.885",
+      "default_part": null,
+      "default_group": null,
+      "staff": null,
+      "groups": [
+        6
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 23,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$KWxqESfxXqM6$W5ksjGNnzvgDcrhmCnNFpzcXktI6ZnVUQUAslHsNwNk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "789789",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-30T18:16:04.792",
+      "default_part": null,
+      "default_group": null,
+      "staff": null,
+      "groups": [
+        6
+      ],
+      "user_permissions": [],
+      "parts": [
+        "1",
+        "3432c8fc-ad0c-41c7-b3a9-2010469325b2",
+        "ac4ddb83-e334-488b-a0fd-996ddda3f974"
+      ]
+    }
+  },
+  {
+    "model": "auth_system.user",
+    "pk": 24,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$62Ph7Mjj0nKq$W+qRBLmZVsmUspwgaiBPRMQdKOacCMWrDnCIFgXwbZI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "npm",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-05-05T19:49:52.791",
+      "default_part": null,
+      "default_group": null,
+      "staff": "164790",
+      "groups": [],
+      "user_permissions": [],
+      "parts": [
+        "1"
+      ]
+    }
+  }
+]

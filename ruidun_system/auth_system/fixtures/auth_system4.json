@@ -1,0 +1,386 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "rest_framework_tracking",
+      "model": "apirequestlog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "company"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "contenttypecat"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "contenttypecatrel"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "part"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "project"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "customgroup"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "staff",
+      "model": "department"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "staff",
+      "model": "folk"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "staff",
+      "model": "jobstation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "staff",
+      "model": "staff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "staff",
+      "model": "team"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentinfo"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentlocationcard"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentrepair"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentupkeep"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentused"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+      "app_label": "equipment",
+      "model": "factory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+      "app_label": "equipment",
+      "model": "model"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "carpass"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 27,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "cautionrecord"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 28,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "devicecategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 29,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "deviceinfo"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 30,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "deviceupkeep"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 31,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "locationcard"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 32,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "staffpass"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 33,
+    "fields": {
+      "app_label": "safe",
+      "model": "danger"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 34,
+    "fields": {
+      "app_label": "safe",
+      "model": "dangerouscategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 35,
+    "fields": {
+      "app_label": "safe",
+      "model": "dangerused"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 36,
+    "fields": {
+      "app_label": "safe",
+      "model": "priorscheme"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 37,
+    "fields": {
+      "app_label": "safe",
+      "model": "problem"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 38,
+    "fields": {
+      "app_label": "safe",
+      "model": "specialscheme"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 39,
+    "fields": {
+      "app_label": "work_area",
+      "model": "carbreak"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 40,
+    "fields": {
+      "app_label": "work_area",
+      "model": "carinfo"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 41,
+    "fields": {
+      "app_label": "work_area",
+      "model": "carrecord"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 42,
+    "fields": {
+      "app_label": "work_area",
+      "model": "staffbreak"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 43,
+    "fields": {
+      "app_label": "work_area",
+      "model": "staffrecord"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 44,
+    "fields": {
+      "app_label": "staff",
+      "model": "departmentwork"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 45,
+    "fields": {
+      "app_label": "staff",
+      "model": "userwork"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 46,
+    "fields": {
+      "app_label": "equipment",
+      "model": "equipmentlocation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 47,
+    "fields": {
+      "app_label": "internet_setting",
+      "model": "stafflocation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 48,
+    "fields": {
+      "app_label": "auth_system",
+      "model": "extragroup"
+    }
+  }
+]

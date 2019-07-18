@@ -1,0 +1,301 @@
+[
+  {
+    "model": "staff.department",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u90e8\u95e8\u4e00"
+    }
+  },
+  {
+    "model": "staff.department",
+    "pk": "2",
+    "fields": {
+      "index": 1,
+      "is_used": 0,
+      "name": "\u90e8\u95e8\u4e8c"
+    }
+  },
+  {
+    "model": "staff.jobstation",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u5c97\u4f4d\u4e00"
+    }
+  },
+  {
+    "model": "staff.jobstation",
+    "pk": "2",
+    "fields": {
+      "index": 1,
+      "is_used": 0,
+      "name": "\u5c97\u4f4d\u4e8c"
+    }
+  },
+  {
+    "model": "staff.team",
+    "pk": "1",
+    "fields": {
+      "index": 1,
+      "is_used": 1,
+      "name": "\u65bd\u5de5\u7ec4\u4e00",
+      "part": null
+    }
+  },
+  {
+    "model": "staff.team",
+    "pk": "2",
+    "fields": {
+      "index": 1,
+      "is_used": 0,
+      "name": "\u65bd\u5de5\u7ec4\u4e8c",
+      "part": null
+    }
+  },
+  {
+    "model": "staff.staff",
+    "pk": "1",
+    "fields": {
+      "department": "1",
+      "job_station": "1",
+      "group": "1",
+      "part": "1",
+      "company": "1",
+      "name": "\u5f20\u4e09",
+      "sex": 1,
+      "age": 24,
+      "birth_place": "\u90d1\u5dde",
+      "address": "\u90d1\u5dde",
+      "phone": "123",
+      "id_card": "1223414123",
+      "id_card_photo": "\u65e0",
+      "card_photo": "\u65e0",
+      "medical_history": "\u65e0",
+      "state": 1,
+      "note": "\u65e0",
+      "time": "2019-03-08",
+      "is_used": 1
+    }
+  },
+  {
+    "model": "staff.staff",
+    "pk": "2",
+    "fields": {
+      "department": "1",
+      "job_station": "2",
+      "group": "2",
+      "part": "1",
+      "company": "2",
+      "name": "\u674e\u56db",
+      "sex": 0,
+      "age": 23,
+      "birth_place": "\u6b66\u6c49",
+      "address": "\u6b66\u6c49",
+      "phone": "456",
+      "id_card": "qweqwewq",
+      "id_card_photo": "\u65e0",
+      "card_photo": "\u65e0",
+      "medical_history": "\u65e0",
+      "state": 0,
+      "note": "\u65e0",
+      "time": "2019-03-10",
+      "is_used": 1
+    }
+  },
+  {
+    "model": "staff.staff",
+    "pk": "3",
+    "fields": {
+      "department": "2",
+      "job_station": "2",
+      "group": "2",
+      "part": "2",
+      "company": "2",
+      "name": "\u674e\u56db",
+      "sex": 0,
+      "age": 23,
+      "birth_place": "\u6b66\u6c49",
+      "address": "\u6b66\u6c49",
+      "phone": "456",
+      "id_card": "qweqwewq",
+      "id_card_photo": "\u65e0",
+      "card_photo": "\u65e0",
+      "medical_history": "\u65e0",
+      "state": 1,
+      "note": "",
+      "time": "2019-03-14",
+      "is_used": 1
+    }
+  },
+  {
+    "model": "staff.folk",
+    "pk": "1",
+    "fields": {
+      "staff": "1",
+      "name": "ni",
+      "phone": "1223",
+      "address": "dahau"
+    }
+  },
+  {
+    "model": "staff.folk",
+    "pk": "2",
+    "fields": {
+      "staff": "1",
+      "name": "nids",
+      "phone": "1234",
+      "address": "32424"
+    }
+  },
+  {
+    "model": "staff.folk",
+    "pk": "3",
+    "fields": {
+      "staff": "2",
+      "name": "niweqe",
+      "phone": "3456",
+      "address": "32423424"
+    }
+  },
+  {
+    "model": "staff.departmentwork",
+    "pk": "1",
+    "fields": {
+      "time": "2019-03-15T02:36:14.699Z",
+      "department": "1",
+      "fact": 50,
+      "real": 40
+    }
+  },
+  {
+    "model": "staff.departmentwork",
+    "pk": "2",
+    "fields": {
+      "time": "2019-03-14T02:36:58.217Z",
+      "department": "2",
+      "fact": 50,
+      "real": 45
+    }
+  },
+  {
+    "model": "staff.departmentwork",
+    "pk": "3",
+    "fields": {
+      "time": "2019-03-13T02:37:16.579Z",
+      "department": "1",
+      "fact": 50,
+      "real": 50
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "1",
+    "fields": {
+      "time": "2019-03-15T02:39:55.500Z",
+      "staff": "1",
+      "work": 1,
+      "detail": "",
+      "enter_time": "2019-03-15T08:40:03.460Z",
+      "leave_time": "2019-03-15T18:40:23.819Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "2",
+    "fields": {
+      "time": "2019-03-15T02:40:42.774Z",
+      "staff": "2",
+      "work": 1,
+      "detail": "\u8fdf\u523030\u5206\u949f",
+      "enter_time": "2019-03-15T02:40:55.388Z",
+      "leave_time": "2019-03-15T02:41:00.747Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "23",
+    "fields": {
+      "time": "2019-03-07T07:38:24.201Z",
+      "staff": "1",
+      "work": 1,
+      "detail": "",
+      "enter_time": "2019-03-19T07:38:33.356Z",
+      "leave_time": "2019-03-19T07:38:35.903Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "3",
+    "fields": {
+      "time": "2019-03-15T07:23:54.794Z",
+      "staff": "3",
+      "work": 0,
+      "detail": "\u65f7\u5de5",
+      "enter_time": null,
+      "leave_time": null
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "34",
+    "fields": {
+      "time": "2019-03-19T07:37:36.660Z",
+      "staff": "1",
+      "work": 1,
+      "detail": "",
+      "enter_time": "2019-03-19T07:37:44.245Z",
+      "leave_time": "2019-03-19T07:37:46.784Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "4",
+    "fields": {
+      "time": "2019-03-18T06:49:22.352Z",
+      "staff": "1",
+      "work": 1,
+      "detail": "",
+      "enter_time": "2019-03-18T06:49:10.005Z",
+      "leave_time": "2019-03-18T06:49:06.859Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "45",
+    "fields": {
+      "time": "2019-03-18T07:24:14.379Z",
+      "staff": "2",
+      "work": 1,
+      "detail": "",
+      "enter_time": "2019-03-18T07:24:03.852Z",
+      "leave_time": "2019-03-18T07:24:07.568Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "5",
+    "fields": {
+      "time": "2019-04-14T06:49:32.936Z",
+      "staff": "1",
+      "work": 0,
+      "detail": "\u8bf7\u5047",
+      "enter_time": "2019-03-18T06:50:28.561Z",
+      "leave_time": "2019-03-18T06:50:31.408Z"
+    }
+  },
+  {
+    "model": "staff.userwork",
+    "pk": "6",
+    "fields": {
+      "time": "2019-04-18T07:24:38.207Z",
+      "staff": "3",
+      "work": 1,
+      "detail": null,
+      "enter_time": "2019-03-18T07:24:34.581Z",
+      "leave_time": "2019-03-18T07:24:31.400Z"
+    }
+  }
+]

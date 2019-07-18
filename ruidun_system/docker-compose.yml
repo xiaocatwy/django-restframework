@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    command: python3 ./manage.py runserver 0.0.0.0:8000
+
+    #依赖库发生变化时,重新安装
+    #command: docker-compose run api pip install -r requirements.txt --user --upgrade
+
+    volumes:
+      - .:/code
+    ports:
+      - "9080:8000"
+
+    environment:
+      PYTHONUSERBASE: /code/vendor
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.6
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+    ports:
+      - "3343:3306"
+    volumes:
+      - ruidun_data:/var/lib/mysql
+
+volumes:
+  ruidun_data:
