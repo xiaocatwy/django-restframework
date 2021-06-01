@@ -51,6 +51,6 @@ six==1.11.0
 split==0.4
 sqlparse==0.2.4
 suds-jurko==0.6
-urllib3==1.23
+urllib3==1.26.5
 Werkzeug==0.14.1
 xlrd==1.2.0
