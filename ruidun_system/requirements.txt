@@ -39,7 +39,7 @@ six==1.11.0
 split==0.4
 sqlparse==0.2.4
 suds-jurko==0.6
-urllib3==1.23
+urllib3==1.26.5
 djangorestframework
 # django-rest-auth
 djangorestframework-jwt
